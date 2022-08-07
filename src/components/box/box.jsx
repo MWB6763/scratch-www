@@ -13,7 +13,7 @@ const Box = props => (
                 <a
                     href={props.moreHref}
                     {...props.moreProps}
-                >
+                title={props.moreTitle}>
                     {props.moreTitle}
                 </a>
             </p>
